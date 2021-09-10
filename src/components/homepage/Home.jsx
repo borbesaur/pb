@@ -6,7 +6,6 @@ function Home() {
   return (
     <div className="main">
       <h1>Welcome To Plasma Beach</h1>
-      <h3 className="intro-p"> The World’s first crowd-sourced, NFT-based cartoon show</h3>
       <video autoplay="autoplay" muted loop="loop" id="video-welcome">
         <source src={ferrisWheel} type="video/mp4" />
   
@@ -14,14 +13,16 @@ function Home() {
       </video>
       <div className="top-section">
         <div className="top-section-inner">
+      <h3 className="intro-p"> The World’s first crowd-sourced, NFT-based cartoon show</h3>
 
-
-  
 
       <p>
+      <span className="first">
         Plasma Beach is a sleepy beachside community located in the caudate lobe
-        of some guy’s liver. All the happenings, all the drama, all the trials
-        and tribulations our characters will endure will all happen at the
+        of some guy’s liver. 
+      </span>
+
+        &nbsp;  All the happenings, all the drama, all the trials and tribulations our characters will endure will all happen at the
         microscopic level. Like the Magic School Bus or that one episode of Rick
         and Morty. We already have the plot for 4 seasons of animated adventures
         but we need you to help us build the narrative! (And raise the money)
