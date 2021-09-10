@@ -55,6 +55,13 @@ function Lore() {
         and do things they never thought they’d be doing - if they want to save
         the world.
       </p>
+
+      <p>
+        I know, typical, right? Everybody's always saving the world. But hear me
+        out, every time you get sick, some organisms inside your body literally
+        have to step up and save the world to prevent you from dying so it's
+        really not that farfetched in this case.
+      </p>
     </div>
   );
 }

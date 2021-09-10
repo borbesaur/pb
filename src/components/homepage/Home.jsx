@@ -1,12 +1,22 @@
 import React from "react";
 import "./Home.css";
+import ferrisWheel from '../../videos/ferris.mp4';
 
 function Home() {
   return (
     <div className="main">
       <h1>Welcome To Plasma Beach</h1>
+      <h3 className="intro-p"> The World’s first crowd-sourced, NFT-based cartoon show</h3>
+      <video autoplay="autoplay" muted loop="loop" id="video-welcome">
+        <source src={ferrisWheel} type="video/mp4" />
+  
 
-      <p>The World’s first crowd-sourced, NFT-based cartoon show. </p>
+      </video>
+      <div className="top-section">
+        <div className="top-section-inner">
+
+
+  
 
       <p>
         Plasma Beach is a sleepy beachside community located in the caudate lobe
@@ -30,11 +40,16 @@ function Home() {
         the community to crowdsource and curate ideas along the way. That means
         that if you buy a Plasma Beach NFT, you are investing in the ground
         floor of this project and we intend to reward you as such. We beileve in
-        rewarding our existing stakeholders every time we have successfully
-        launch a new collection of NFTs. And most importantly, if we succeed in
-        making a cartoon show that becomes popular and profitable, we will give
-        the profit back to our stakeholders.
+        rewarding our existing stakeholders every time we successfully launch a
+        new collection of NFTs. And most importantly, if we succeed in making a
+        cartoon show that becomes popular and profitable, we will give the
+        profit back to our stakeholders.
       </p>
+
+      </div>
+
+
+      </div>
 
       <br />
 

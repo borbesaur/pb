@@ -1,11 +1,10 @@
 .lore {
-    background-color: rgba(0, 0, 0, 0.9);
-    color: white;
-    min-height: 100vh;
-    padding: 160px;
-    font-size: 20px;
-  }
-
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  min-height: 100vh;
+  padding: 160px;
+  font-size: 20px;
+}
 
 .lore {
   display: flex;
