@@ -30,10 +30,10 @@ function Home() {
         the community to crowdsource and curate ideas along the way. That means
         that if you buy a Plasma Beach NFT, you are investing in the ground
         floor of this project and we intend to reward you as such. We beileve in
-        rewarding our existing stakeholders every time we have a successful
-        round of fundraising with a new collection of NFTs. And most
-        importantly, if we succeed in making a cartoon show that becomes popular
-        and profitable, we will give the profit back to our stakeholders.
+        rewarding our existing stakeholders every time we have successfully
+        launch a new collection of NFTs. And most importantly, if we succeed in
+        making a cartoon show that becomes popular and profitable, we will give
+        the profit back to our stakeholders.
       </p>
 
       <br />

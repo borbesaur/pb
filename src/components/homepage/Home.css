@@ -1,8 +1,8 @@
 .main {
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   color: white;
   min-height: 100vh;
-  padding: 60px;
+  padding: 100px 140px 140px 140px;
 }
 
 .main p {
