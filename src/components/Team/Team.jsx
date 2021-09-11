@@ -10,6 +10,7 @@ function Team() {
         <div className="table-entry">
           <div className="left-side">
             <h3>Borbesaur</h3>
+            <p>Creator</p>
             <div className="avatar"></div>
             <img src="images/allen.png" />
           </div>
@@ -19,8 +20,39 @@ function Team() {
             programming jobs as well but that's (hopefully) part of the past.
             Borbesaur also has a real life college degree in English & Creative
             Writing and is a published novelist and poet. Fun fact: Borbesaur
-            HATES commas and will <b> fight you </b> (figuratively) if you suggest adding
-            a comma anywhere.  
+            HATES commas and will <b> fight you </b> (figuratively) if you
+            suggest adding a comma anywhere.
+          </div>
+        </div>
+        <div className="table-entry">
+          <div className="left-side">
+            <h3>Tyler</h3>
+            <p>Artist</p>
+            <div className="avatar"></div>
+            <img src="images/pb-bg.png" />
+          </div>
+          <div className="right-side">
+            Tyler is a full degen normie yuppie from the upper west side. He
+            wears sperry topsiders and vineyard vines long sleeved tees and puts
+            pomade in his hair and if you don't like it... well that's just too
+            bad because his mind is a beautiful precious art studio that
+            casually drops masterpieces on the reg.
+          </div>
+        </div>
+        <div className="table-entry">
+          <div className="left-side">
+            <h3>DudeMyGuy</h3>
+            <p>Spirit Guide</p>
+            <div className="avatar"></div>
+            <img src="images/allen.png" />
+          </div>
+          <div className="right-side">
+            DudeMyGuy needs no intro but I'm gonna give him one anyway. If
+            you've heard of a cryptocurrency, he has too. If you've bought an
+            NFT, he was probably involved in the project. If he's not running
+            scams in Colombia or doing calisthenics in the middle of a crowded
+            restaurant, he's probably working behind the scenes, propping up
+            your favorite de-fi project's operations department, saving your investment from complete disaster.  So thank him when you get the chance. 
           </div>
         </div>
       </div>
