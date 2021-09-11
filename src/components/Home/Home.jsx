@@ -4,7 +4,7 @@ import "./Home.css";
 function Home() {
   return (
     <div className="main">
-      <h1>Welcome To Plasma Beach</h1>
+      <h1 className="blah">Welcome To Plasma Beach</h1>
 
       <video autoPlay="autoplay" muted loop="loop" id="video-welcome">
         <source src="https://i.imgur.com/WJPIj2U.mp4" type="video/mp4" />
@@ -97,7 +97,7 @@ function Home() {
         <p>
           We will release a collection of generative character NFTs who cannot
           be revealed until after the release of the graphic novel because of
-          spoilers. All current stakeholder will be whitelisted prior to
+          spoilers. All current stakeholders will be whitelisted prior to
           minting. All current stakeholders will also receive royalties on this
           collection as well.
         </p>
@@ -122,6 +122,7 @@ function Home() {
         <h3>Phase 7</h3>
         <p>Make a roadmap for season 2. We got 4 seasons of this.</p>
       </div>
+
     </div>
   );
 }

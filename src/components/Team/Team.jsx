@@ -33,7 +33,7 @@ function Team() {
           </div>
           <div className="right-side">
             Tyler is a full degen normie yuppie from the upper west side. He
-            wears sperry topsiders and vineyard vines long sleeved tees and puts
+            wears sperry topsiders and vineyard vines long sleeve tees and puts
             pomade in his hair and if you don't like it... well that's just too
             bad because his mind is a beautiful precious art studio that
             casually drops masterpieces on the reg.
