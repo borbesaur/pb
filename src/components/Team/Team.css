@@ -5,11 +5,11 @@
   padding-top: 50px;
   font-size: 20px;
 }
-.team{
+.team {
   border: 2px dotted;
   border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), #7c00f7, #ff7723)
     2 45%;
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 .team h1 {

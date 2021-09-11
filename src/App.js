@@ -5,10 +5,10 @@ import Navbar from "./components/Navbar/Navbar";
 import Lore from "./components/Lore/Lore";
 import Team from "./components/Team/Team";
 
-function App() {
+function App(props) {
   return (
     <div className="full-body">
-      <Navbar />
+      <Route path="/" component={Navbar} />
       <Route exact path="/" component={Home} />
       <Route exact path="/lore" component={Lore} />
       <Route exact path="/theTeam" component={Team} />

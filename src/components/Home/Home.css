@@ -13,6 +13,13 @@ p {
   font-size: 20px;
 }
 
+.ani {
+  position: absolute;
+  top: 190vh;
+  width: 99vw;
+  height: 140vh;
+}
+
 .top-section {
   border-top: 2px solid;
   border-image-slice: 1;
@@ -40,9 +47,15 @@ p {
 
 .main {
   border: 2px dotted;
-  border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6), #ff7723, #7c00f7)
+  border-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.6),
+      #ff7723,
+      #7c00f7
+    )
     2 45%;
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 .roadmap h3 {

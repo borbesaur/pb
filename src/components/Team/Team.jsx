@@ -47,7 +47,7 @@ function Team() {
             <img src="images/dotdotdude.png" />
           </div>
           <div className="right-side">
-            DudeMyGuy needs no intro but I'm gonna give him one anyway. If
+            Dudemyguy needs no intro but I'm gonna give him one anyway. If
             you've heard of a cryptocurrency, he has too. If you've bought an
             NFT, he was probably involved in the project. If he's not sharing
             magic mushrooms with a stranger on an airplane or doing calisthenics

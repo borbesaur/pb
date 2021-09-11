@@ -1,7 +1,8 @@
 import React from "react";
 import "./Home.css";
+import Animation from "../Animation/Animation";
 
-function Home() {
+function Home(props) {
   return (
     <div className="main">
       <h1 className="blah">Welcome To Plasma Beach</h1>
@@ -52,6 +53,9 @@ function Home() {
       </div>
 
       <br />
+      <div className="ani">
+        <Animation />
+      </div>
 
       <div className="roadmap">
         <h1> Roadmap </h1>
