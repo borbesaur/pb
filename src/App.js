@@ -1,6 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Home from "./components/homepage/Home";
+import Home from "./components/Homepage/Home";
 import { Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Lore from "./components/Lore/Lore";

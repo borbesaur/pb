@@ -6,14 +6,14 @@ function Home() {
   return (
     <div className="main">
       <h1>Welcome To Plasma Beach</h1>
-      <video autoplay="autoplay" muted loop="loop" id="video-welcome">
+      <video autoPlay="autoplay" muted loop="loop" id="video-welcome">
         <source src={ferrisWheel} type="video/mp4" />
   
 
       </video>
       <div className="top-section">
         <div className="top-section-inner">
-      <h3 className="intro-p"> The World’s first crowd-sourced, NFT-based cartoon show</h3>
+      <h3 className="intro-p"> The world’s first crowd-sourced, NFT-based cartoon show</h3>
 
 
       <p>
