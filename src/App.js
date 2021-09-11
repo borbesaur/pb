@@ -1,5 +1,5 @@
 import "./App.css";
-import Home from "./components/RAMMM/Home";
+import Home from "./components/Home/Home";
 import { Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Lore from "./components/Lore/Lore";
