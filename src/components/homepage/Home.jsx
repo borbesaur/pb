@@ -1,13 +1,14 @@
 import React from "react";
 import "./Home.css";
-import ferrisWheel from '../../videos/ferris.mp4';
+
 
 function Home() {
   return (
     <div className="main">
       <h1>Welcome To Plasma Beach</h1>
+      
       <video autoPlay="autoplay" muted loop="loop" id="video-welcome">
-        <source src={ferrisWheel} type="video/mp4" />
+        <source src="https://i.imgur.com/WJPIj2U.mp4" type="video/mp4" />
   
 
       </video>
