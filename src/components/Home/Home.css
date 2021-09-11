@@ -3,7 +3,6 @@ p {
   line-height: 1.5em;
 }
 
-
 .main {
   color: white;
   min-height: 100vh;
@@ -25,7 +24,6 @@ p {
   margin-bottom: -250px;
 }
 
-
 .main,
 .roadmap,
 #video-welcome,
@@ -34,7 +32,6 @@ p {
   flex-direction: column;
   align-items: center;
 }
-
 
 .roadmap {
   text-align: center;

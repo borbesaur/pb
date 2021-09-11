@@ -4,6 +4,7 @@ body {
   min-height: 100vh;
   color: white;
   font-family: "OCR A Std", monospace;
+  /* letter-spacing: 0.1em; */
 }
 
 p {
@@ -12,4 +13,3 @@ p {
   text-decoration-color: #7c00f7;
   text-decoration-thickness: 1px;
 }
-

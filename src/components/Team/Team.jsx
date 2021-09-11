@@ -41,18 +41,20 @@ function Team() {
         </div>
         <div className="table-entry">
           <div className="left-side">
-            <h3>DudeMyGuy</h3>
+            <h3>Dudemyguy</h3>
             <p>Spirit Guide</p>
             <div className="avatar"></div>
-            <img src="images/allen.png" />
+            <img src="images/dotdotdude.png" />
           </div>
           <div className="right-side">
             DudeMyGuy needs no intro but I'm gonna give him one anyway. If
             you've heard of a cryptocurrency, he has too. If you've bought an
-            NFT, he was probably involved in the project. If he's not running
-            scams in Colombia or doing calisthenics in the middle of a crowded
-            restaurant, he's probably working behind the scenes, propping up
-            your favorite de-fi project's operations department, saving your investment from complete disaster.  So thank him when you get the chance. 
+            NFT, he was probably involved in the project. If he's not sharing
+            magic mushrooms with a stranger on an airplane or doing calisthenics
+            in the middle of a crowded restaurant, he's probably working behind
+            the scenes, propping up your favorite de-fi project's operations
+            department, saving your investment from complete disaster. So thank
+            him when you get the chance.
           </div>
         </div>
       </div>

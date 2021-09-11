@@ -6,20 +6,14 @@
   padding-top: 100px;
 }
 
-
 .lore {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.lore{
-  border-width: 3px;
-  border-style: solid;
-  border-image: 
-    linear-gradient(
-      to bottom, 
-      #7c00f7, 
-      #ffa51e
-    ) 1 100%;  
+.lore {
+  border: 4px dotted;
+  border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), #ff7723, #7c00f7)
+    2 45%;
 }

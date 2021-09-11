@@ -122,7 +122,6 @@ function Home() {
         <h3>Phase 7</h3>
         <p>Make a roadmap for season 2. We got 4 seasons of this.</p>
       </div>
-
     </div>
   );
 }
