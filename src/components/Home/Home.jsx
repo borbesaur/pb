@@ -7,7 +7,7 @@ function Home() {
       <h1 className="blah">Welcome To Plasma Beach</h1>
 
       <video autoPlay="autoplay" muted loop="loop" id="video-welcome">
-        <source src="https://i.imgur.com/WJPIj2U.mp4" type="video/mp4" />
+        <source src="https://i.imgur.com/3ZaIb0I.mp4" type="video/mp4" />
       </video>
       <div className="top-section">
         <div className="top-section-inner">
