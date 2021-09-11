@@ -3,6 +3,9 @@ import "./Lore.css";
 
 function Lore() {
   return (
+    <div className="lore-container">
+
+    
     <div className="lore">
       <h1>The Setup</h1>
 
@@ -62,6 +65,8 @@ function Lore() {
         have to step up and save the world to prevent you from dying so it's
         really not that farfetched in this case.
       </p>
+
+      </div>
     </div>
   );
 }

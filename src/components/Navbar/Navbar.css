@@ -22,4 +22,5 @@ nav a {
 .nav-parent img {
   margin-left: 40px;
   border-radius: 3.5px;
+  border: 1px solid #7c00f7;
 }

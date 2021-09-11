@@ -7,7 +7,7 @@ p {
 .main {
   color: white;
   min-height: 100vh;
-  padding: 0px 160px 160px 140px;
+  /* padding: 0px 160px 160px 140px; */
 }
 
 .main p {
@@ -15,12 +15,16 @@ p {
 }
 
 .top-section {
+  border-top: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #ff7723, #d53a9d);
   background-color: rgb(25, 25, 25);
   position: relative;
-  top: -320px;
+  top: -325px;
   width: 100vw;
   margin-bottom: -250px;
 }
+
 
 .main,
 .roadmap,
@@ -31,9 +35,10 @@ p {
   align-items: center;
 }
 
+
 .roadmap {
   text-align: center;
-  width: 70%;
+  width: 58%;
 }
 
 .roadmap h3 {
@@ -66,6 +71,7 @@ p {
 #video-welcome {
   width: 100vw;
   overflow: hidden;
+  border-top: 0.5px solid #7c00f7;
 }
 
 .top-section-inner {

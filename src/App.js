@@ -7,7 +7,7 @@ import Team from "./components/Team/Team";
 
 function App() {
   return (
-    <div>
+    <div className="full-body">
       <Navbar />
       <Route exact path="/" component={Home} />
       <Route exact path="/lore" component={Lore} />
