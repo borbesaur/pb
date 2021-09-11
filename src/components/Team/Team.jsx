@@ -3,8 +3,10 @@ import "./Team.css";
 
 function Team() {
   return (
-    <div className="Team">
+    <div className="team">
       <h1>Meet The Team</h1>
+
+
 
 
     </div>
