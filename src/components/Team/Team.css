@@ -1,0 +1,33 @@
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.team h1 {
+  margin-bottom: 75px;
+}
+
+.table-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+}
+
+.team .left-side {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team .right-side {
+  width: 60%;
+}
+
+.team img {
+  width: 100%;
+  border-radius: 50%;
+}

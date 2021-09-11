@@ -2,14 +2,13 @@
   color: white;
   min-height: 100vh;
   padding: 0px 160px 160px 140px;
-  font-family: "OCR A Std", monospace;
 }
 
 .main p {
   font-size: 20px;
 }
 
-.top-section{
+.top-section {
   background-color: rgb(25, 25, 25);
   position: relative;
   top: -320px;
@@ -26,12 +25,12 @@
   align-items: center;
 }
 
-.roadmap{
-  text-align: center;;
+.roadmap {
+  text-align: center;
   width: 70%;
 }
 
-.roadmap h3{
+.roadmap h3 {
   margin-top: 40px;
   margin-bottom: 0;
 }
@@ -47,7 +46,7 @@
   text-shadow: 4px 4px 0 #ff7723;
 }
 
-.intro-p{
+.intro-p {
   font-family: "OCR A Std", monospace;
   position: relative;
   -webkit-text-stroke-width: 2.5px;
@@ -58,18 +57,16 @@
   text-shadow: 2px 2px 0 #ff7723;
 }
 
-
-#video-welcome{
+#video-welcome {
   width: 100vw;
-  overflow:hidden;
+  overflow: hidden;
 }
 
-.top-section-inner{
+.top-section-inner {
   padding: 0 140px 0 140px;
 }
 
-.first{
+.first {
   font-size: 30px;
   font-weight: bold;
 }
-

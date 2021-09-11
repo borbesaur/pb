@@ -1,56 +1,54 @@
 import React from "react";
 import "./Home.css";
 
-
 function Home() {
   return (
     <div className="main">
       <h1>Welcome To Plasma Beach</h1>
-      
+
       <video autoPlay="autoplay" muted loop="loop" id="video-welcome">
         <source src="https://i.imgur.com/WJPIj2U.mp4" type="video/mp4" />
-  
-
       </video>
       <div className="top-section">
         <div className="top-section-inner">
-      <h3 className="intro-p"> The world’s first crowd-sourced, NFT-based cartoon show</h3>
+          <h3 className="intro-p">
+            {" "}
+            The world’s first crowd-sourced, NFT-based cartoon show
+          </h3>
 
+          <p>
+            <span className="first">
+              Plasma Beach is a sleepy beachside community located in the
+              caudate lobe of some guy’s liver.
+            </span>
+            &nbsp; All the happenings, all the drama, all the trials and
+            tribulations our characters will endure will all happen at the
+            microscopic level. Like the Magic School Bus or that one episode of
+            Rick and Morty. We already have the plot for 4 seasons of animated
+            adventures but we need you to help us build the narrative! (And
+            raise the money)
+          </p>
+          <p>
+            All of our NFTs will double as membership cards to access our
+            stakeholders area in the discord server. All stakeholders will get a
+            say in how the story unfolds in Plasma Beach and will be able to
+            offer feedback in real time as the show is being made.
+          </p>
 
-      <p>
-      <span className="first">
-        Plasma Beach is a sleepy beachside community located in the caudate lobe
-        of some guy’s liver. 
-      </span>
-
-        &nbsp;  All the happenings, all the drama, all the trials and tribulations our characters will endure will all happen at the
-        microscopic level. Like the Magic School Bus or that one episode of Rick
-        and Morty. We already have the plot for 4 seasons of animated adventures
-        but we need you to help us build the narrative! (And raise the money)
-      </p>
-      <p>
-        All of our NFTs will double as membership cards to access our
-        stakeholders area in the discord server. All stakeholders will get a say
-        in how the story unfolds in Plasma Beach and will be able to offer
-        feedback in real time as the show is being made.
-      </p>
-
-      <p>
-        Stakeholders will also be rewarded with profit sharing at every phase
-        where profit happens. Here at Plasma Beach, our business model is
-        simple, we sell NFTs to raise money to make a cartoon show. And we use
-        the community to crowdsource and curate ideas along the way. That means
-        that if you buy a Plasma Beach NFT, you are investing in the ground
-        floor of this project and we intend to reward you as such. We beileve in
-        rewarding our existing stakeholders every time we successfully launch a
-        new collection of NFTs. And most importantly, if we succeed in making a
-        cartoon show that becomes popular and profitable, we will give the
-        profit back to our stakeholders.
-      </p>
-
-      </div>
-
-
+          <p>
+            Stakeholders will also be rewarded with profit sharing at every
+            phase where profit happens. Here at Plasma Beach, our business model
+            is simple, we sell NFTs to raise money to make a cartoon show. And
+            we use the community to crowdsource and curate ideas along the way.
+            That means that if you buy a Plasma Beach NFT, you are investing in
+            the ground floor of this project and we intend to reward you as
+            such. We beileve in rewarding our existing stakeholders every time
+            we successfully launch a new collection of NFTs. And most
+            importantly, if we succeed in making a cartoon show that becomes
+            popular and profitable, we will give the profit back to our
+            stakeholders.
+          </p>
+        </div>
       </div>
 
       <br />
