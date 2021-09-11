@@ -13,9 +13,9 @@
 .top-section{
   background-color: rgb(25, 25, 25);
   position: relative;
-  top: -330px;
+  top: -320px;
   width: 100vw;
-  margin-bottom: -200px;
+  margin-bottom: -250px;
 }
 
 .main,
@@ -29,9 +29,6 @@
 
 .roadmap{
   text-align: center;;
-}
-
-.roadmap {
   width: 70%;
 }
 
