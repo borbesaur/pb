@@ -1,9 +1,8 @@
-p,
-div {
-  line-height: 1.5em;
-}
+
+
 
 body {
+  line-height: 1.5em;
   background-color: rgba(0, 0, 0, 0.9);
   min-height: 100vh;
   color: white;
