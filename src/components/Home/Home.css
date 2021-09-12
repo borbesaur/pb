@@ -14,10 +14,15 @@ p {
 }
 
 .ani {
-  position: absolute;
-  top: 190vh;
+  position: relative;
+  /* left:0; */
+  /* top: 190vh; */
   width: 99vw;
-  height: 140vh;
+  /* height: 140vh; */
+}
+
+.ani-container{
+  position: relative;
 }
 
 .top-section {

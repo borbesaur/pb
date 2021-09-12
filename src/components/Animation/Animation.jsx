@@ -7,24 +7,17 @@ const Animation = () => {
   const executeScroll = () => mid.current && mid.current.scrollIntoView()    
   
   const [right, setRight] = useState(0);
-  const [top, setTop] = useState(0);
-  const [oldPosition, setOldPosition] = useState(0);
+  const [top, setTop] = useState(-13);
   let go = true;
   const handleScroll = (e) => {
     const position = window.scrollY;
-    if (position < 700) {
-        if(right !== 0) setRight(0);
-      return;
-    } else {
+    if (position < 700) return;
+    const coord = (position - 700) / 8;
       if (go) {
-        const goingDown = position > oldPosition;
-        setOldPosition(position);
-        console.log(goingDown);
+        const rightValue = coord > 0 ? coord : 1;
+        setRight(rightValue);
         go = false;
-        if(goingDown) setRight(right +1.1);
-        if(!goingDown && right > -1) setRight(right - 1.1);
         return;
-      }
     }
   };
 
@@ -43,7 +36,7 @@ const Animation = () => {
           width: "200px",
           position: "absolute",
           right: `${right}vw`,
-          top: `${top}vh`,
+          top: `${top}vw    `,
           visibility: "visible",
         }}
       />

@@ -53,9 +53,11 @@ function Home(props) {
       </div>
 
       <br />
+    
       <div className="ani">
         <Animation />
       </div>
+
 
       <div className="roadmap">
         <h1> Roadmap </h1>
