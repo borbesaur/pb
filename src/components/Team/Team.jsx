@@ -29,7 +29,7 @@ function Team() {
             <h3>Tyler</h3>
             <p>Artist</p>
             <div className="avatar"></div>
-            <img src="images/pb-bg.png" />
+            <img src="images/stv.png" />
           </div>
           <div className="right-side">
             Tyler is a full degen normie yuppie from the upper west side. He

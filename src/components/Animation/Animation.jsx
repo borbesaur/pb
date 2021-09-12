@@ -1,6 +1,8 @@
 import React from "react";
 import "./Animation.css";
 import { useEffect, useState } from "react";
+import carFront from '../../car-images/carFront.png'
+import carLeft1 from '../../car-images/carleft1.png';
 
 const Animation = () => {
   const [right, setRight] = useState(0);
@@ -58,7 +60,7 @@ const Animation = () => {
   return (
     <div className="animation-bg">
       <img
-        src="images/stv.png"
+        src={carLeft1}
         alt=""
         style={{
           width: "200px",

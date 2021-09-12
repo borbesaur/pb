@@ -75,7 +75,7 @@ p {
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: white;
   font-size: 90px;
-  text-shadow: 4px 4px 0 #ff7723;
+  text-shadow: 4px 4px 3px #ff7723;
 }
 
 .intro-p {

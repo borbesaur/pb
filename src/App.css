@@ -8,9 +8,9 @@ body {
 }
 
 p {
+  /* text-decoration-color: rgb(60, 60, 60); */
   text-decoration-line: underline;
   text-decoration-style: dotted;
-  text-decoration-color: #7c00f7;
-  /* text-decoration-color: rgb(60, 60, 60); */
   text-decoration-thickness: 1px;
+  text-decoration-color: rgba(124, 0, 247, 0.5);
 }
