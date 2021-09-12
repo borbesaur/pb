@@ -14,17 +14,25 @@ const Animation = () => {
     if (position >= 700) {
       const coord = (position - 700) / 7;
       if (go) {
-        let topValue = top;
+        let topValue = -12;
         let rightValue = coord > 0 ? coord : 0;
-        if (rightValue > 85 && top < 8) topValue+= 0.5;
-        if(position > 1295 && position < 1400) {
+
+
+        if (rightValue >= 85 && top <= 8) {
+            const blah = position - 1340;
+            topValue = blah / 4;
+            if (topValue > 8) topValue = 8;
+        }
+
+
+        if(position > 1295 && position < 1372) {
             rightValue = 85;
         }  
-        if(position >=1400){
-            const diff = (position - 1400);
-            const factor = diff / 7;
-            rightValue = 85 - factor;
-        }
+        if(position >=1372){
+            const diff = (position - 1372);
+            const factor = (diff / 7);
+            rightValue = 85 - factor + 1;
+            }
 
         setTop(topValue);
         setRight(rightValue);
