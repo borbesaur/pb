@@ -2,7 +2,7 @@ body {
   line-height: 1.5em;
   background-color: rgba(0, 0, 0, 0.9);
   min-height: 100vh;
-  color: white;
+  color: #ddd;
   font-family: "OCR A Std", monospace;
   /* letter-spacing: 0.1em; */
 }
@@ -10,7 +10,7 @@ body {
 p {
   text-decoration-line: underline;
   text-decoration-style: dotted;
-  /* text-decoration-color: #7c00f7; */
-  text-decoration-color: rgb(60, 60, 60);
+  text-decoration-color: #7c00f7;
+  /* text-decoration-color: rgb(60, 60, 60); */
   text-decoration-thickness: 1px;
 }
