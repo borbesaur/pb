@@ -5,6 +5,7 @@ body {
   color: #ddd;
   font-family: "OCR A Std", monospace;
   /* letter-spacing: 0.1em; */
+  overflow-x: hidden;
 }
 
 p {
