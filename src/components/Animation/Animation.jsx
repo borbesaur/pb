@@ -26,7 +26,8 @@ const Animation = () => {
   const handleScroll = (e) => {
     const position = window.scrollY;
     if (position < 700) {
-      if(right != 0) setRight(0); go = true;
+      if(right != 0) setRight(0);
+      go = true;
       return
     };
 
@@ -71,15 +72,13 @@ const Animation = () => {
         width = 500;
         const diff = position - 1372;
         const factor = diff / 7;
-        if (right > 6) {
+        if (position < 1550) {
+          setVisibility("visible");
           rightValue = 85 - factor - 20;
         } else {
           setVisibility("hidden");
         }
-      } else {
-        setVisibility("visible");
-      }
-
+      } 
       setTop(topValue);
       setRight(rightValue);
       setCurrentImage(img);
