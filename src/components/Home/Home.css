@@ -28,7 +28,8 @@ p {
   border-top: 2px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(to left, #ff7723, #d53a9d);
-  background-color: rgb(25, 25, 25);
+  background-image: linear-gradient(to bottom, rgba(25,25,25,1),rgba(25,25,25,1),rgba(25,25,25,1),rgba(25,25,25,0));
+  /* background-color: rgb(25, 25, 25); */
   position: relative;
   top: -23.5vw;
   width: 100vw;

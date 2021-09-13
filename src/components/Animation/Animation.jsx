@@ -10,6 +10,8 @@ import carRight1 from '../../car-images/carright1.png';
 import carRight2 from '../../car-images/carright2.png';
 import carRight3 from '../../car-images/carright3.png';
 import carRight4 from '../../car-images/carright4.png';
+import carturning1 from '../../car-images/carturning1.png';
+import carturning2 from '../../car-images/carturning2.png';
 
 const Animation = () => {
   const leftImages = [carLeft1, carLeft2, carLeft3, carLeft4];
@@ -36,26 +38,41 @@ const Animation = () => {
       let rightValue = coord > 0 ? coord : 0;
       let blah = Math.floor(rightValue % 4);
       img = (leftImages[blah]);
+
+      if(rightValue > 75 && rightValue < 82 && position < 1330){
+        img = carturning1;
+        width = 200;
+        const q = position - 1340;
+        topValue = (q / 9)+3;
+      }
       
 
-      if (rightValue >= 82 && top <= 8) {
+      if (position >= 1270 && position <= 1340) {
         img = carFront;
-        const blah = position - 1340;
-        const divisor = ((1400 - position)/20)+4;
+        const converted = position - 1340;
+        const divisor = ((1400 - position)/20)+3;
         width = position / divisor;
-        topValue = (blah / 4)+2;
+        topValue = (converted / 4)+15;
         if (topValue > 8) topValue = 8;
         rightValue = 85;
       }
 
+      if(position > 1340 && position < 1372){
+        width = 300;
+        img = carturning2;
+        rightValue = (1660 - position)/4
+        topValue = (position - 1250)/10;
+      }
+
       if (position >= 1372) {
+        topValue = 12;
         let steps = Math.floor(right % 4);
         img = rightImages[steps]; 
-        width = 300;
+        width = 500;
         const diff = position - 1372;
         const factor = diff / 7;
-        if (right > 73) {
-          rightValue = 85 - factor - 5;
+        if (right > 6) {
+          rightValue = 85 - factor - 20;
         } else {
           setVisibility("hidden");
         }
@@ -93,6 +110,7 @@ const Animation = () => {
           right: `${right}vw`,
           top: `${top}vw`,
           visibility: visibility,
+          zIndex: -5
         }}
       />
     </div>
