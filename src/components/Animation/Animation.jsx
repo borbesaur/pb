@@ -79,9 +79,9 @@ const Animation = () => {
           setVisibility("hidden");
         }
       } 
+      setCurrentImage(img);
       setTop(topValue);
       setRight(rightValue);
-      setCurrentImage(img);
       setImgWidth(width);
       go = false;
       return;

@@ -11,8 +11,9 @@ function Team() {
           <div className="left-side">
             <h3>Borbesaur</h3>
             <p>Creator</p>
-            <div className="avatar"></div>
+            <div className="avatar">
             <img src="images/allen.png" />
+            </div>
           </div>
           <div className="right-side">
             Borbesaur is the creator of Plasma Beach. He is a dev who has been
@@ -28,8 +29,9 @@ function Team() {
           <div className="left-side">
             <h3>Tyler</h3>
             <p>Artist</p>
-            <div className="avatar"></div>
-            <img src="images/stv.png" />
+            <div className="avatar">
+            <img src="https://i.imgur.com/2hakYvC.png" />
+            </div>
           </div>
           <div className="right-side">
             Tyler is a full degen normie yuppie from the upper west side. He
@@ -43,8 +45,9 @@ function Team() {
           <div className="left-side">
             <h3>Dudemyguy</h3>
             <p>Spirit Guide</p>
-            <div className="avatar"></div>
+            <div className="avatar">
             <img src="images/dotdotdude.png" />
+            </div>
           </div>
           <div className="right-side">
             Dudemyguy needs no intro but I'm gonna give him one anyway. If

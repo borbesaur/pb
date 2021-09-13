@@ -25,7 +25,7 @@ function Lore() {
         <p>
           But seriously. I created this fictional universe the way I did because
           I wanted some rules to work with so that we can’t just do anything we
-          want however we want, we have to make it fit with the setting of the
+          want however we want. We have to make it fit with the setting of the
           plot - the inside some guy’s liver. This way, we can seem clever and
           if we really do it right, we might get some people reacting with
           &#129327; emojis on twitter and shit.
