@@ -6,20 +6,20 @@ import carLeft1 from '../../car-images/carleft1.png';
 import carLeft2 from '../../car-images/carleft2.png';
 import carLeft3 from '../../car-images/carleft3.png';
 import carLeft4 from '../../car-images/carleft4.png';
-import carLeft5 from '../../car-images/carleft5.png';
 import carRight1 from '../../car-images/carright1.png';
 import carRight2 from '../../car-images/carright2.png';
 import carRight3 from '../../car-images/carright3.png';
 import carRight4 from '../../car-images/carright4.png';
 
 const Animation = () => {
-  const leftImages = [carLeft1, carLeft2, carLeft3, carLeft4, carLeft5];
-  const rightImages = [carRight1, carRight2, carRight3, carRight4];
+  const leftImages = [carLeft1, carLeft2, carLeft3, carLeft4];
+  const rightImages = [carRight4, carRight3, carRight2, carRight1];
   const [right, setRight] = useState(0);
   const [top, setTop] = useState(-12);
   const [visibility, setVisibility] = useState("visible");
-  let go = true;
   const [currentImage, setCurrentImage] = useState(carLeft1);
+  const [imgWidth, setImgWidth] = useState(250);
+  let go = true;
 
   const handleScroll = (e) => {
     const position = window.scrollY;
@@ -30,29 +30,32 @@ const Animation = () => {
 
     const coord = (position - 700) / 7;
     if (go) {
-      let img;
+      let img = currentImage;
+      let width = 250;
       let topValue = -12;
       let rightValue = coord > 0 ? coord : 0;
-
-      let blah = Math.floor(rightValue/4);
-      while (blah >= leftImages.length) blah -= leftImages.length;
-      
-      // <= (leftImages.length - 1) ? Math.floor(rightValue/4) : Math.floor(rightValue/4) - leftImages.length;
-
+      let blah = Math.floor(rightValue % 4);
       img = (leftImages[blah]);
+      
 
-      if (rightValue >= 85 && top <= 8) {
+      if (rightValue >= 82 && top <= 8) {
+        img = carFront;
         const blah = position - 1340;
-        topValue = blah / 4;
+        const divisor = ((1400 - position)/20)+4;
+        width = position / divisor;
+        topValue = (blah / 4)+2;
         if (topValue > 8) topValue = 8;
         rightValue = 85;
       }
 
       if (position >= 1372) {
+        let steps = Math.floor(right % 4);
+        img = rightImages[steps]; 
+        width = 300;
         const diff = position - 1372;
         const factor = diff / 7;
         if (right > 73) {
-          rightValue = 85 - factor + 1;
+          rightValue = 85 - factor - 5;
         } else {
           setVisibility("hidden");
         }
@@ -63,6 +66,7 @@ const Animation = () => {
       setTop(topValue);
       setRight(rightValue);
       setCurrentImage(img);
+      setImgWidth(width);
       go = false;
       return;
     }
@@ -84,7 +88,7 @@ const Animation = () => {
         src={currentImage}
         alt=""
         style={{
-          width: "250px",
+          width: `${imgWidth}px`,
           position: "absolute",
           right: `${right}vw`,
           top: `${top}vw`,
