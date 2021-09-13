@@ -25,7 +25,7 @@ const Animation = () => {
 
   const handleScroll = (e) => {
     const position = window.scrollY;
-    if (position < 700) {
+    if (position <= 700) {
       if(right != 0) setRight(0);
       go = true;
       return
@@ -72,7 +72,7 @@ const Animation = () => {
         width = 500;
         const diff = position - 1372;
         const factor = diff / 7;
-        if (position < 1550) {
+        if (position < 1600) {
           setVisibility("visible");
           rightValue = 85 - factor - 20;
         } else {
@@ -94,9 +94,10 @@ const Animation = () => {
     () => {
       go = true;
     },
-    [right],
-    []
+    [right]
   );
+
+  
 
   return (
     <div className="animation-bg">
