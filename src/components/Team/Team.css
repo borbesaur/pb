@@ -42,12 +42,10 @@
   box-shadow: 7px -7px #7c00f7;
 }
 
-.avatar{
+.avatar {
   height: 300px;
   width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-

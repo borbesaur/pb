@@ -31,7 +31,7 @@ function Home(props) {
           </p>
           <p>
             All of our NFTs will double as membership cards to access our
-            stakeholders area in the discord server. All stakeholders will get a
+            stakeholders area in the discord server; All stakeholders will get a
             say in how the story unfolds in Plasma Beach and will be able to
             offer feedback in real time as the show is being made.
           </p>
@@ -64,13 +64,13 @@ function Home(props) {
         <h3>Phase 1</h3>
         <p>
           We will release a limited collection of 333 character NFTs who are
-          relevant to season 1. These are the main characters and their friends
-          and family. Each character will have a few variations in appearance
-          and/or outfit that will be generative, but each character will be
-          individually designed and created. The relative popularity of each NFT
-          in this collection will inform us how much screen time to give each
-          character, and may influence their final appearance/outfit, or even
-          the role they get cast in.
+          relevant to season 1; These will be the main characters and their
+          friends and family. Each character will have a few variations in
+          appearance and/or outfit that will be generative but each character
+          will be individually designed and created. The relative popularity of
+          each NFT in this collection will inform us how much screen time to
+          give each character, and may influence their final appearance/outfit,
+          or even the role they get cast in.
         </p>
         <h3>Phase 2</h3>
         <p>

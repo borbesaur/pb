@@ -28,7 +28,13 @@ p {
   border-top: 2px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(to left, #ff7723, #d53a9d);
-  background-image: linear-gradient(to bottom, rgba(25,25,25,1),rgba(25,25,25,1),rgba(25,25,25,1),rgba(25,25,25,0));
+  background-image: linear-gradient(
+    to bottom,
+    rgba(25, 25, 25, 1),
+    rgba(25, 25, 25, 1),
+    rgba(25, 25, 25, 1),
+    rgba(25, 25, 25, 0)
+  );
   /* background-color: rgb(25, 25, 25); */
   position: relative;
   top: -23.5vw;
@@ -74,7 +80,7 @@ p {
   top: 160px;
   color: #7c00f7;
   -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-color: rgba(240, 240, 240);
   font-size: 90px;
   text-shadow: 4px 4px 3px #ff7723;
 }

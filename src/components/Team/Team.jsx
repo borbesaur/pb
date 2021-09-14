@@ -12,7 +12,7 @@ function Team() {
             <h3>Borbesaur</h3>
             <p>Creator</p>
             <div className="avatar">
-            <img src="images/allen.png" />
+              <img src="images/allen.png" />
             </div>
           </div>
           <div className="right-side">
@@ -27,14 +27,14 @@ function Team() {
         </div>
         <div className="table-entry">
           <div className="left-side">
-            <h3>Tyler</h3>
+            <h3>t-money</h3>
             <p>Artist</p>
             <div className="avatar">
-            <img src="https://i.imgur.com/2hakYvC.png" />
+              <img src="images/t-money.png" />
             </div>
           </div>
           <div className="right-side">
-            Tyler is a full degen normie yuppie from the upper west side. He
+            t-money is a full degen normie yuppie from the upper west side. He
             wears sperry topsiders and vineyard vines long sleeve tees and puts
             pomade in his hair and if you don't like it... well that's just too
             bad because his mind is a beautiful precious art studio that
@@ -46,7 +46,7 @@ function Team() {
             <h3>Dudemyguy</h3>
             <p>Spirit Guide</p>
             <div className="avatar">
-            <img src="images/dotdotdude.png" />
+              <img src="images/dotdotdude.png" />
             </div>
           </div>
           <div className="right-side">
